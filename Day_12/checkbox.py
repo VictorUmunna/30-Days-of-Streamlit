@@ -12,7 +12,7 @@ if boli:
     st.write('Great! Here is your Boli')
 
 if guguru:
-    st.write("Okay Here's some Guguru")
+    st.write("Okay! Here's some Guguru")
 
 if nsala:
-    st.write("Enjoy youur Nsala")
+    st.write("Enjoy your Nsala")
