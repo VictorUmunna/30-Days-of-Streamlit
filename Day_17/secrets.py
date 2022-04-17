@@ -2,4 +2,4 @@ import streamlit as st
 
 st.title('st.secrets')
 
-st.write(st.secrets['Happy Easter'])
+st.write(st.secrets['message'])
