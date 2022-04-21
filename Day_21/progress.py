@@ -8,8 +8,9 @@ with st.expander('About this app'):
 
 my_bar = st.progress(0)
 
-for percent_complete in range(100):
-    time.sleep(0.1)
-    my_bar.progress(percent_complete + 1)
+while True:
+    for percent_complete in range(100):
+        time.sleep(0.1)
+        my_bar.progress(percent_complete + 1)
+    st.balloons()
     
-st.balloons()
